@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<ul>
+	{% for user in all_users %}
+	<li>{{user["email"]}}</li>
+	{% endfor %}
+</ul>
+</body>
+</html>
